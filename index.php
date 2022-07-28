@@ -118,7 +118,7 @@
                     <div class="line" id="line-Services"></div>
                 </div> 
 
-                <div class="s-i"> 
+                <div class="o-s"> 
                     <div class="All-Services">
 
                         <a href="#" class="Servicess" id="Service1"></a>
@@ -146,36 +146,36 @@
                 <div class="s-i"> 
 
                     <div class="tt">
-                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" class="fas fa-key"></i> </a>
+                    <a  class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" id="icon1" class="fas fa-key"></i> </a>
                     <p class="gg">عقارات للكراء</p>
                     </div>
 
                     <div class="tt">
-                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" class="fas fa-key"></i> </a>
+                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" id="icon2" class="fas fa-handshake"></i> </a>
                     <p>عقارات للبيع</p>
                     </div>
 
                     <div class="tt">
-                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" class="fas fa-key"></i> </a>
+                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" id="icon3" class="fas fa-building"></i> </a>
                     <p>مشاريع جديدة</p>
                     </div>
 
 
 
                     <div class="tt">
-                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" class="fas fa-key"></i> </a>
+                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" id="icon4" class="fas fa-suitcase"></i> </a>
                     <p>كراء موسمي</p>
                     </div>
 
 
                     <div class="tt">
-                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" class="fas fa-key"></i> </a>
+                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" id="icon5" class="fas fa-map"></i> </a>
                     <p>أراضي سكنية</p>
                     </div>
 
 
                     <div class="tt">
-                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" class="fas fa-key"></i> </a>
+                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" id="icon6" class="fas fa-home"></i> </a>
                     <p>منازل سكنية</p>
                     </div>
 
@@ -191,12 +191,17 @@
                 <div class="All-cities">
 
                         <a href="#" class="cities" id="Tangier"></a>
-                        <a href="#" class="cities" id="Casablanca"></a>
+                        <a href="#" class="cities" id="Casablanca"><h3></h3></a>
                         <a href="#" class="cities" id="Rabat"></a>
                         <a href="#" class="cities" id="Marrakech"></a>
-                        <a href="#" class="cities" id="Agadir"></a>
-
+                        <a href="#" class="cities" id="Agadir"></a>               
                 </div>
+
+                <div class="tit2">
+                        <p id="ppp1">الأكثر بحثاً عن عقارات في المغرب</p>
+                        <p id="ppp2">اخترنا لكم مجموعة من المدن الأكثر شهرة في العقار</p>
+                </div>
+                
    
         
 
@@ -215,19 +220,213 @@
 
 
 
+<!-- ----------------------------------------------------------- -->
+
+
+    <!-- <div class="cards">
+
+        <div class="card">
+
+            <div class="Home-img">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+
+            <div class="content">
+                <h2>بلبيلب لبلبيل لل يبليب</h2>
+                <p>200.00 DH</p>
+                <p>قللقليقل  قللققلي</p>
+
+                <div class="Inside-House">
+                    <i class="fa fa-heart" aria-hidden="true">dddddddd</i>
+                    <i class="fa fa-heart" aria-hidden="true">fffffffff</i>
+                    <i class="fa fa-heart" aria-hidden="true">gggggg</i>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="card">
+
+            <div class="Home-img">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+
+            <div class="content">
+                <h2>بلبيلب لبلبيل لل يبليب</h2>
+                <p>200.00 DH</p>
+                <p>قللقليقل  قللققلي</p>
+
+                <div class="Inside-House">
+                    <i class="fa fa-heart" aria-hidden="true">dddddddd</i>
+                    <i class="fa fa-heart" aria-hidden="true">fffffffff</i>
+                    <i class="fa fa-heart" aria-hidden="true">gggggg</i>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="Home-img">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+
+            <div class="content">
+                <h2>بلبيلب لبلبيل لل يبليب</h2>
+                <p>200.00 DH</p>
+                <p>قللقليقل  قللققلي</p>
+
+                <div class="Inside-House">
+                    <i class="fa fa-heart" aria-hidden="true">dddddddd</i>
+                    <i class="fa fa-heart" aria-hidden="true">fffffffff</i>
+                    <i class="fa fa-heart" aria-hidden="true">gggggg</i>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div> -->
+
+
+
+
+
+<!-- ----------------------------------------------------------- -->
+    
+    
+    
+
+
+
+    <section>
+                <div class="Lists">
+
+
+                    <div class="List1">
+                        <p class="List-p">المناطق الأكثر شعبية</p>
+                        <div class="linee"></div>
+
+                        <a class="Lists-a"  href="#">فلل ومنازل للبيع في مراكش</a>
+                        <a class="Lists-a" href="#">اراضي للبيع في طنجة </a>
+                        <a class="Lists-a" href="#">شقق للبيع في طنجة</a>
+                        <a class="Lists-a" href="#">فلل ومنازل للبيع في طنجة </a>
+                        <a class="Lists-a" href="#">اراضي للبيع في مراكش</a>
+                        <a class="Lists-a" href="#">شقق للبيع في مراكش</a>
+
+  
+
+                    </div>
+
+                    <div class="List2">
+                        <p class="List-p">الأماكن الأكثر بحثاً</p>
+                        <div class="linee"></div>
+
+                        <a class="Lists-a" href="#">شقق للإيجار في مراكش</a>
+                        <a class="Lists-a" href="#">شقق للإيجار في الدار البيضاء</a>
+                        <a class="Lists-a" href="#">فلل ومنازل للإيجار في طنجة </a>
+                        <a class="Lists-a" href="#">شقق للإيجار في جذر</a>
+                        <a class="Lists-a" href="#">شقق للإيجار في طنجة</a>
+                        <a class="Lists-a" href="#">فلل ومنازل للإيجار في مراكش</a>
+
+                    </div>
+
+                    <div class="List3">
+                        <p class="List-p">كراء موسمي </p>
+                        <div class="linee"></div>
+                        
+                        <a class="Lists-a" href="#">شقق في طنجة</a>
+                        <a class="Lists-a" href="#">شقق في الرباط</a>
+                        <a class="Lists-a" href="#">شقق في مرتيل</a>
+                        <a class="Lists-a" href="#">شقق في أكادير</a>
+                        <a class="Lists-a" href="#">شقق في تطوان</a>
+                        <a class="Lists-a" href="#">شقق في فاس</a>
+
+
+                    </div>
+
+
+                    
+                    <div class="List4">
+                        <p class="List-p">البحث شعبية</p>
+                        <div class="linee"></div>
+
+                        <a class="Lists-a" href="#">البحث شعبية</a>
+                        <a class="Lists-a" href="#">شقق للبيع في المغرب</a>
+                        <a class="Lists-a" href="#">فلل ومنازل للبيع في المغرب</a>
+                        <a class="Lists-a" href="#">اراضي للبيع في المغرب</a>
+                        <a class="Lists-a" href="#">شقق للإيجار في المغرب</a>
+                        <a class="Lists-a" href="#">فلل ومنازل للإيجار في المغرب</a>
+
+                     
+
+                    </div>
+                    
+                </div>
+    </section>
+
+
+  
+    <footer>
+
+        <div class="Social_media">
+            
+                    <div class="media">
+                    <a  class="elementor-icon" href="#"><i aria-hidden="true" id="s-icon1" class="fab fa-facebook-f"></i></a>
+                    </div>
+
+                    <div class="media">
+                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" id="s-icon2" class="fab fa-twitter"></i> </a>
+                    </div>
+
+                    <div class="media">
+                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" id="s-icon3" class="fa fa-instagram"></i> </a>
+                    </div>
+
+
+
+                    <div class="media">
+                    <a class="elementor-icon elementor-animation-" href="#"><i aria-hidden="true" id="s-icon4" class="fab fa-linkedin-in"></i> </a>
+                    </div>
+
+        </div>
+
+
+
+        <header>
+            
+                <nav>
+                    <ul>
+                
+                        <li><a href="#">مدونة</a></li>
+                        <li><a href="#">الخدمات</a></li>
+                        <li><a class="gg" href="#">الوكلاء العقاريين</a></li>
+                        <li><a class="gg" href="#">مشاريع جديدة</a></li>
+                        <li><a href="#">للكراء</a></li>
+                        <li><a href="#">للبيع</a></li>
+                    </ul>
+                </nav>
+                <div class="logo">
+                <a href="#"><img src="img/logo.png" alt="logo" height="50px"></a>
+                </div>
+    </header>
 
 
 
 
 
 
-
-
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
+        <p id="c">يضمن الموقع احترام سياسة الخصوصية وفقا للقانون رقم <samp id="nm">09-08</samp> المتعلق بحماية الأشخاص فيما يتعلق بمعالجة البيانات الشخصية</p>
+    </footer>
 
 </body>
 </html>

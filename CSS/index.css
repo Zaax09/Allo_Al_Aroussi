@@ -22,7 +22,10 @@ nav ul{
 nav ul li{
     display: inline-block;
     padding: 0 0px;
-    min-width: 80px;
+    width: 120px;
+    text-align: center;
+
+    
    
 }
 nav ul li a{
@@ -34,15 +37,12 @@ nav ul li a{
     color: crimson;
 }
 
-.gg{
-    margin-right: 20px;
-}
+
 .left img{
     padding: 0 10px;
 }
 
 .logo{
-    margin-left: -100px;
 }
 
 /* --------------------  header -------------------- */
@@ -122,19 +122,22 @@ select{
 }
 
 /* ---------------------  section 1 -------------------------- */
-
-.Services1{
+.o-s {
+    
+}
+.Services1 {
     margin-bottom: 80px;
 }
 
-#Our-Services-p{
+#Our-Services-p {
     text-align: center;
     /* margin-top: 10px; */
     font-weight: 200;
     font-size: 1.4rem;
+    margin-bottom: 30px;
 }
 
-.Services-top{
+.Services-top {
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -161,16 +164,14 @@ select{
   
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
-    padding: 30px 15% 0 15% ;
 }
 .fas{
     
    
     height: 60px;
     width:60px;
-    border: 3px solid #2980B9;
     border-radius: 5px;
     
     text-align: center;
@@ -178,9 +179,59 @@ select{
     align-content: center;
     
 }
+.fab{
+    
+   
+    height: 60px;
+    width:60px;
+    border-radius: 5px;
+    
+    text-align: center;
+    justify-content: space-between;
+    align-content: center;
+    
+}.fa{
+    
+   
+    height: 60px;
+    width:60px;
+    border-radius: 5px;
+    
+    text-align: center;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+#icon1 {
+    border: 3px solid #2980B9;
+    color: #2980B9;
+    
+}#icon2 {
+    /* height: 60px;
+    width:60px; */
+    border: 3px solid #0bc5f3; 
+    color: #0bc5f3;
+    
+}#icon3 {
+    border: 3px solid #b92984;
+    color: #b92984;
+    
+}#icon4 {
+    border: 3px solid #b92929;
+    color: #b92929;
+    
+}#icon5 {
+    border: 3px solid #ec860a;
+    color: #ec860a;
+    
+}#icon6 {
+    border: 3px solid #b929b9;
+    color: #b929b9;
+    
+}
 
 i{
-    color: #2980B9;
+   
     justify-content: center;
     align-items: center;
     font-size: 31px;
@@ -195,15 +246,15 @@ i{
 .All-Services{
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
-    width: 100%;
+    flex-wrap: wrap;
    
 }
 
 
 .Servicess{
-   
+   margin: 30px;
     text-align: center;
     height: 270px;
     width: 160px;
@@ -216,12 +267,12 @@ i{
 /* ======= Services ========== */
 
 #Service1{
-    background-image: url(../img/card-1.jpg);
+    background-image: url(../img/Zellige.jpg);
     background-size: cover;
 }#Service1::before{
    padding: 5px 0 0 0;
-   content: "طنجة";
-   font-size: 0.7rem;
+   content: "الزليج  العصري";
+   font-size: 0.6rem;
    display: block;
    height: 30px;
    width:80px ;
@@ -242,12 +293,12 @@ i{
  } */
 
 #Service2{
-    background-image: url(../img/card-1.jpg);
+    background-image: url(../img/building\ houses.jpg);
     background-size: cover;
 }#Service2::before{
     padding: 5px 0 0 0;
-    content: "طنجة";
-    font-size: 0.7rem;
+    content: "بناء المنازل";
+    font-size: 0.6rem;
     display: block;
     height: 30px;
     width:80px ;
@@ -257,12 +308,12 @@ i{
     margin-top: 241px;
 }
 #Service3{
-    background-image: url(../img/card-1.jpg);
+    background-image: url(../img/carpentry.jpg);
     background-size: cover;
 }#Service3::before{
     padding: 5px 0 0 0;
-   content: "طنجة";
-   font-size: 0.7rem;
+   content: "نجارة الخشب";
+   font-size: 0.6rem;
    display: block;
    height: 30px;
    width:80px ;
@@ -272,12 +323,12 @@ i{
    margin-top: 241px;
 }
 #Service4{
-    background-image: url(../img/card-1.jpg);
+    background-image: url(../img/bbmenuis2.jpg);
     background-size: cover;
 }#Service4::before{
     padding: 5px 0 0 0;
-   content: "gggggg";
-   font-size: 0.7rem;
+   content: "نجارة الالومنيوم";
+   font-size: 0.6rem;
    display: block;
    height: 30px;
    width:80px ;
@@ -288,12 +339,12 @@ i{
 }
 
 #Service5{
-    background-image: url(../img/card-1.jpg);
+    background-image: url(../img/ff.jpg);
     background-size: cover;
 }#Service5::before{
     padding: 5px 0 0 0;
-   content: "ffffff";
-   font-size: 0.7rem;
+   content: " الماء و الكهرباء";
+   font-size: 0.6rem;
    display: block;
    height: 30px;
    width:80px ;
@@ -304,12 +355,12 @@ i{
 }
 
 #Service6{
-    background-image: url(../img/card-1.jpg);
+    background-image: url(../img/image.webp);
     background-size: cover;
 }#Service6::before{
     padding: 5px 0 0 0;
-   content: "طنجة";
-   font-size: 0.7rem;
+   content: "الصباغة العصرية";
+   font-size: 0.6rem;
    display: block;
    height: 30px;
    width:80px ;
@@ -350,11 +401,16 @@ i{
 /* ---------------------  section 2 -------------------------- */
 
 p{
-    color: crimson;
+    color: #242424;
+    margin-top: 10px;
 }
 
 .tt{
-    display: flex;
+     /* display: block; */
+     width: 150px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
 }
 
 #section2{
@@ -367,6 +423,7 @@ text-align: center;
 }
 #pp2{
     margin: 10px 0 20px 0;
+    color: crimson;
 
 }
 
@@ -374,10 +431,12 @@ text-align: center;
 .All-cities{
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
-    width: 80%;
-    margin-left: 10%;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+ 
+    width: 100%;
 
 }
 .cities{
@@ -386,8 +445,19 @@ text-align: center;
     width: 230px;
     background-color: #2980B9;
     border-radius: 5px;
-    padding: 0 10px;
+    padding: 0px 10px;
+    margin-top: 30px;
     
+}
+.cities h3 {
+
+    font-size: 1.1rem;
+    background-color: crimson;
+    color: #fff;
+    border: 5px solid #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 
@@ -397,16 +467,17 @@ text-align: center;
     background-image: url(../img/tanger.jpg);
     background-size: cover;
 }#Tangier::before{
-   padding: 5px 0 0 0;
-   content: "طنجة";
+   
+   content: "طنجة"; 
    font-size: 1.1rem;
+   padding: 5px 0 0 0;
    display: block;
-   height: 38px;
-   width:120px ;
-   background-color: crimson;
-   color: #fff;
-   border: 5px solid #fff;
-   margin-top: 381px;
+    height: 38px;
+    width:120px ;
+    background-color: crimson;
+    color: #fff;
+    border: 5px solid #fff;
+    margin-top: 381px;
    margin-left: -12px;
 }
 /* #Tangier::after{
@@ -488,4 +559,169 @@ text-align: center;
     margin-top: 381px;
    margin-left: -12px;
 
+}
+
+/* ************************************************ */
+.tit2{
+    text-align: center;
+}
+#ppp1{
+    margin: 50px 0 0 0;
+font-size: 1.4rem;
+color: #242424;
+font-weight: 600;
+}#ppp2{
+    font-size: 0.9rem;
+color: crimson;
+}
+
+/* ************************************************** */
+
+
+.Lists{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.List1{
+    text-align: right;
+    padding: 0 80px;
+}.List2{
+    text-align: right;
+    padding: 0 80px;
+    
+}.List3{
+    text-align: right;
+    padding: 0 80px;
+    
+}.List4{
+    text-align: right;
+    padding: 0 80px;
+    
+}
+
+
+.linee{
+    height: 1px;
+    width: 100%;
+   background-color: crimson;
+   margin-bottom: 15px;
+}
+
+.List-p{
+    font-size: 1.2rem;
+    color: crimson;
+}
+
+
+
+.Lists-a{
+    display: block;
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+
+/* ================================= content ======================================== */
+
+
+.cards{
+    height: 450px;
+    width: 300px;
+    border: 3px solid crimson;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+/* ==================================== footer ============================================== */
+footer{
+    background-color: #f8f8f8;
+}
+.Social_media{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.media{
+    /* display: block; */
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+#s-icon1 {
+    border: 3px solid #2980B9;
+    color: #2980B9;
+    
+}#s-icon2 {
+    /* height: 60px;
+    width:60px; */
+    border: 3px solid #0bc5f3; 
+    color: #0bc5f3;
+    
+}#s-icon3 {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc18a9 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+        
+    color: #fff;
+    font-size: 2.5rem;
+
+
+}#s-icon4 {
+    border: 3px solid #b92929;
+    color: #b92929;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#c{
+    text-align: right;
+    font-size: 0.8rem;
+    margin-right: 150px;
+}
+#nm{
+    color: crimson;
 }
